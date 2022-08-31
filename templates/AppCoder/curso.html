@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Curso</title>
-</head>
-<body>
+{% extends 'index.html' %}
+
+{% block title %}
+curso
+{% endblock %}
+
+{% block inicio %}
 <h1>Este es mi curso</h1>
 {{ curso.nombre }}
-</body>
-</html>
+{% endblock %}
